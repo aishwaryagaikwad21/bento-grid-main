@@ -17,63 +17,58 @@
 <body>
 
  <div class="grid-container">
-    <div class="card card-1">Card 1</div>
-    <div class="card card-2">Card 2</div>
-    <div class="card card-3">Card 3</div>
-    <div class="card card-4">Card 4</div>
-    <div class="card card-5">Card 5</div>
-    <div class="card card-6">Card 6</div>
-    <div class="card card-7">Card 7</div>
-    <div class="card card-8">Card 8</div>
+    
+    <div class="card card-1">
+      <h4 id="c1">1.Create and schedule content quicker.</h4>
+      <img src="/assets/images/create-post.webp" alt="create-post">
+    </div>
+    
+    <div class="card card-2">
+      <h2 id="c2">Social Media 10x Faster with AI</h2>
+      <img src="/assets/images/five-stars.webp" alt="five-stars">
+      <p>Over 4,000 5 star reviews</p>
+    </div>
+    
+    <div class="card card-3">
+      <h5>Schedule to social media</h5>
+      <img src="/assets/images/schedule-posts.webp" alt="">
+      <p>Optimize post timings to publish content at the perfect time for your audience</p>
+    </div>
+    
+    <div class="card card-4">
+      <h4>Write your content using AI.</h4>
+      <img src="/assets/images/ai-content.webp" alt="">
+    </div>
+    
+    <div class="card card-5">
+      <img src="/assets/images/multiple-platforms.webp" alt="">
+      <h4>Manage multiple accounts and platforms.</h4>
+    </div>
+    <div class="card card-6">
+      <p></p>Maintain a consistent posting schedule</p>
+      <img src="/assets/images/consistent-schedule.webp" alt="">
+    </div>
+    <div class="card card-7">
+      <h1>>56%</h1>
+      <p>faster audience growth</p>
+      <img src="/assets/images/audience-growth.webp" alt="">
+    </div>
+    <div class="card card-8">
+      <img src="/assets/images/grow-followers.webp" alt="">
+      <h4>Grow followers with non-stop content.</h4>
+    </div>
   </div>
 
-<!--<div class="container">
-  
-    <div class="card create_and_schedule">
-      <h3>Create and Schedule content quicker<h3>
-      <img src="/assets/images/create-post.webp" alt="Create Post" style="width:100px;" >
-    </div> <br>
-    
-    <div class="card social_media">
-      <h3>Social Media 10x Faster with AI</h3>
-      <img src="/assets/images/five-stars.webp" alt="five-stars" style="width: 100px; height: auto;">
-      <p>Over 4,000 5-star reviews</p>
-    </div> <br>
-    
-    <div class="card schedule_social_media">
-      <h3>Schedule to social media</h3>
-      <img src="/assets/images/schedule-posts.webp" alt="schedule-posts" style="width:300px; height: auto;">
-      <p>Optimise post timings to publish content at the perfect time for your audience</p>
-    </div> <br>
-    
-    <div class="card write_content">
-      <h3>Write your content using AI</h3>
-      <img src="/assets/images/ai-content.webp" alt="ai-content" style="width: 300px; height: auto;">
-    </div>
-    
-    <div class="card manage_account">
-        <img src="/assets/images/multiple-platforms.webp" alt="multiple-platforms" style="width: 300px; height:auto;">
-        <h3>Manage multiple accounts and platforms</h3>
-      </div> <br>
-    
-    <div class="card maintain_consistency">
-        <h3>Maintain a consistent posting schedule</h3>
-        <img src="/assets/images/consistent-schedule.webp" alt="consistent-schedule" style="width: 300px; height: auto;">
-    </div> <br>
-    
-    <div class="card fifty_six">
-      <h3>>56%</h3>
-      <p>faster audience growth</p>
-      <img src="/assets/images/audience-growth.webp" alt="audience-growth" style="width: 200px; height: auto;">
-    </div>
-    
-    <div class="card grow_followers">
-      <img src="/assets/images/grow-followers.webp" alt="grow-followers" style="width: 300px; height: auto;">
-      <h3>Grow followers with non-stop content.</h3>
-    </div>-->
-  
-  <!--</div>-->
-  
-  
+  <script>
+    const p = document.getElementById("c1");
+    const words = p.textContent.split(" ");
+
+    if (words.length >= 5) {
+      // Wrap the 5th word in a span
+      words[4] = `<span class="highlight">${words[4]}</span>`;
+      p.innerHTML = words.join(" ");
+    }
+</script>
+ 
 </body>
 </html>
