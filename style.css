@@ -366,7 +366,7 @@ background-color: hsl(254, 88%, 90%);
   .grid-container {
     width: 90vw;         /* Responsive width */
     max-width: 300px;     /* Prevents huge cards */
-    aspect-ratio: 1 / 1;  /* 💥 Makes it a perfect square */
+    aspect-ratio: 1 / 1;  /* Makes it a perfect square */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,17 +391,7 @@ background-color: hsl(254, 88%, 90%);
   .card-1 { order: 7; }
   .card-4 { order: 8; }
 
-  /*.card img {
-    width: 80%;
-    height: auto;
-    max-height: 50%;
-    object-fit: contain;
-  }*/
-  /* .card h1, .card h2, .card h4, .card h5, .card p {
-    text-align: center;
-    font-size: 14px;
-    padding: 5px;
-  } */
+  
   .card-2 h2{
     font-size: 28px;
   }
