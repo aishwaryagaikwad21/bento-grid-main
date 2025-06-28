@@ -4,6 +4,7 @@ A challenge from frontend mentor site using css flex and grid.
 
 ## 📸 Screenshot
 ![alt text](image.png)
+![alt text](mobile.jpg)
 
 LESSONS LEARNED
 1. Use of CSS Grid for outer layout and CSS Flexbox for inner layout
