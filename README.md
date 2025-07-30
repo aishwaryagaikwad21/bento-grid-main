@@ -6,7 +6,7 @@ A challenge from frontend mentor site using css flex and grid.
 - Deployed on Netlify: https://endearing-creponne-fb6978.netlify.app/
 
 ## 📸 Screenshot
-![alt text](image.png)
+![alt text](bento-grid-desktop.png)
 ![alt text](mobile.jpg)
 
 LESSONS LEARNED
