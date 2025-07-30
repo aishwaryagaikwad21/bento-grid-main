@@ -2,6 +2,9 @@
 
 A challenge from frontend mentor site using css flex and grid.
 
+## 🌐 Live Demo
+- Deployed on Netlify: https://endearing-creponne-fb6978.netlify.app/
+
 ## 📸 Screenshot
 ![alt text](image.png)
 ![alt text](mobile.jpg)
